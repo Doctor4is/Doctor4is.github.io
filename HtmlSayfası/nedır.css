@@ -1,0 +1,56 @@
+body{
+    background-color:#ffffff;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    }
+    nav {
+        background-color: #92C7CF;
+        overflow: hidden;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    nav a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+    }
+    
+    nav a:hover {
+        background-color: #0056b3;
+    }
+    .icerik_bas{
+        text-decoration: none;
+        text-align: right;
+        list-style-type: none;
+    }
+    .icerik_bas ul{
+        list-style: none;
+        text-decoration: none;
+        list-style-type: none;
+    }
+   .icerik_bas a:link {
+        color: black;
+    }
+   .icerik_bas a:visited{
+        color: red;
+    }
+    footer{
+        text-align: center;
+    }
+    .icerik_bas li{
+        text-decoration: none;
+    }
+    .icerik_bas a{
+        text-decoration: none;
+    }

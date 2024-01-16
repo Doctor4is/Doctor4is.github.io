@@ -1,0 +1,57 @@
+
+.genel{
+    margin: 50px;
+    padding: 0;
+    text-align: center;
+    margin-left: 10px;
+    color: white;
+   display: flex;
+   justify-content: space-around;
+}
+.giris, .kayit{
+    display: inline-block;
+}
+
+body{
+    background-color:#304D30;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    }
+    nav {
+        background-color: #0d0101;
+        overflow: hidden;
+        
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    nav a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+    }
+    
+    nav a:hover {
+        background-color: #0056b3;
+    }
+    header{
+        text-align: center;
+    }
+   footer{
+    text-align: center;
+    bottom: 0;
+    margin: 0;
+   }
+   p{
+    color: #0d0101;
+   }
